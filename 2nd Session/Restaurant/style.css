@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.overlay {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.438);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcome {
+	color: white;
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+
+.btn {
+	padding: 20px 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 20px;
+	border: 1px white solid;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.about {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 50px 50px 50px;
+}
+
+.owner {
+	display: flex;
+	align-items: center;
+	margin: 20px 0 50px 0;
+}
+
+.left {
+	width: 50%;
+}
+
+.right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.img {
+	width: 300px;
+}
+
+.heading {
+	display: block;
+	font-size: 42px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.owner-text {
+	font-size: 20px;
+}
+
+.line {
+	width: 100%;
+	height: 5px;
+	background-color: aqua;
+}
+
+.cards {
+	display: flex;
+	height: 50vh;
+	align-items: center;
+}
+
+.card {
+	min-height: 400px;
+	margin: 15px;
+	padding: 30px 20px;
+	border-radius: 5px;
+	border: 1px solid rgb(209, 209, 209);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	display: block;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: 800;
+	text-align: start;
+}
+
+.card-text {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.card:hover {
+	border: none;
+	box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+}

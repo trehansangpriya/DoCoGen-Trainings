@@ -1,0 +1,4 @@
+1. Hero Section
+2. About Section
+3. Menu Section
+4. Contact Section
