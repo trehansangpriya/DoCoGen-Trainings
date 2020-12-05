@@ -1,0 +1,43 @@
+document   ==  Whole Page
+window  ==  Browser
+Element  == Everything on the Page
+Class and ID to grab elements form the Document
+
+1. Class - getElementByClassName('btn')
+2. ID - getElementById('btn')
+
+Query - Class/ID
+
+querySelector('.btn')
+querySelector('#btn')
+
+dot(.)
+
+
+document.getElementById('btn').style.
+
+Variables.
++-*/ - Operations
+
+if(true){
+}
+else{
+
+}
+
+for
+foreach
+
+function changeColor(){
+
+}
+
+const changeColor = ()=>{
+ a+b
+}
+
+changeColor()
+
+click, dblclick, hover, mouseeneter
+
+element - Add event listener - has 2 parts - ('event',function to run when that event happens)
