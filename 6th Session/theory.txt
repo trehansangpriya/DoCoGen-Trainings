@@ -1,0 +1,5 @@
+1. AOS - Animation on Scroll
+2. GSAP - Green Sock
+3. Particles.js
+4. Swup.js
+5. Three.js
